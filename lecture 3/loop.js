@@ -41,12 +41,12 @@
 // }
 // for in loop in js
 
-let student = {
-  name: "Gautam Kumar",
-  age: 22,
-  city: "Delhi",
-  isPass: true,
-};
-for (let i in student) {
-  console.log("i =>", i, "value =>", student[i]);
-}
+// let student = {
+//   name: "Gautam Kumar",
+//   age: 22,
+//   city: "Delhi",
+//   isPass: true,
+// };
+// for (let i in student) {
+//   console.log("i =>", i, "value =>", student[i]);
+// }
