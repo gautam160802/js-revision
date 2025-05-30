@@ -42,3 +42,11 @@
 let str = "Hello World!";
 let str2 = str.split(" "); // split the string into an array of substrings
 console.log(str2); // ["Hello", "World!"]
+let str3 = str.split(""); // split the string into an array of characters
+console.log(str3); // ["H", "e", "l", "l", "o", " ", "W", "o", "r", "l", "d", "!"]
+let str4 = str.split("o"); // split the string into an array of substrings using "o" as the delimiter
+console.log(str4); // ["Hell", " W", "rld!"]
+let str5 = str.split("o", 1); // split the string into an array of substrings using "o" as the delimiter and limit the number of substrings to 1
+console.log(str5); // ["Hell"]
+let str6 = str.split("o", 2); // split the string into an array of substrings using "o" as the delimiter and limit the number of substrings to 2
+console.log(str6); // ["Hell", " W"]
