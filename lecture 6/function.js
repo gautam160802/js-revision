@@ -27,8 +27,8 @@
 // let product = multiply(5, 10);
 // console.log("product is :", product);
 
-function divide(a, b) {
-  return a / b;
-}
-let quotient = divide(10, 2);
-console.log("quotient is: ", quotient);
+// function divide(a, b) {
+//   return a / b;
+// }
+// let quotient = divide(10, 2);
+// console.log("quotient is: ", quotient);
