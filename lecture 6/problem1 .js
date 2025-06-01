@@ -38,19 +38,19 @@
 
 // create an arrow function to perform the same task
 
-const countVowels = (str) => {
-  let count = 0;
-  for (const char of str) {
-    if (
-      char === "a" ||
-      char === "e" ||
-      char === "i" ||
-      char === "0" ||
-      char === "u"
-    ) {
-      count++;
-    }
-  }
-  return count;
-};
-console.log(countVowels("gautam"));
+// const countVowels = (str) => {
+//   let count = 0;
+//   for (const char of str) {
+//     if (
+//       char === "a" ||
+//       char === "e" ||
+//       char === "i" ||
+//       char === "0" ||
+//       char === "u"
+//     ) {
+//       count++;
+//     }
+//   }
+//   return count;
+// };
+// console.log(countVowels("gautam"));
