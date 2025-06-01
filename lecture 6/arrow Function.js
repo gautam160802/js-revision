@@ -36,6 +36,6 @@
 // const product = mull(5, 10);
 // console.log(product);
 
-const arrowMull = (a, b) => {
-  console.log(a * b);
-};
+// const arrowMull = (a, b) => {
+//   console.log(a * b);
+// };
