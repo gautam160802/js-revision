@@ -7,10 +7,10 @@
 // });
 // console.log(output);
 
-let arr = [4, 6, 8, 2, 111, 77];
+// let arr = [4, 6, 8, 2, 111, 77];
 
-const output = arr.reduce((prev, curr) => {
-  return prev > curr ? prev : curr;
-});
+// const output = arr.reduce((prev, curr) => {
+//   return prev > curr ? prev : curr;
+// });
 
-console.log(output);
+// console.log(output);
