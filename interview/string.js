@@ -122,14 +122,55 @@
 // }
 // print(5);
 
+// function print(n) {
+//   for (let i = 0; i < n; i++) {
+//     let stars = "";
+//     for (let j = 0; j < n - i; j++) {
+//       stars += "*";
+//     }
+//     console.log(stars);
+//   }
+// }
+
+// print(5);
+//     *
+//    **
+//   ***
+//  ****
+// *****
+
+// print(5);
+// function print(n) {
+//   for (let i = 1; i <= n; i++) {
+//     let spaces = "";
+//     let stars = "";
+//     for (let j = 0; j < n - i; j++) {
+//       spaces += " ";
+//     }
+//     for (j = 0; j < i; j++) {
+//       stars += "*";
+//     }
+//     console.log(spaces + stars);
+//   }
+// }
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+print(5);
+
 function print(n) {
-  for (let i = 0; i < n; i++) {
+  for (let i = 1; i <= n; i++) {
+    let spaces = "";
     let stars = "";
     for (let j = 0; j < n - i; j++) {
-      stars += "*";
+      spaces += " "; // Add leading spaces
     }
-    console.log(stars);
+    for (j = 0; j < 2 * i - 1; j++) {
+      stars += "*"; // Add stars for the current row
+    }
+
+    console.log(spaces + stars); // Print the row with spaces and stars
   }
 }
-
-print(5);
